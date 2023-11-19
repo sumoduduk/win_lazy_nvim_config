@@ -63,6 +63,9 @@ return {
 			server = {
 				on_attach = on_attach,
 				capabilities = capabilities,
+				check = {
+					overrideCommand = { "cargo", "check", "--message-format=json" },
+				},
 			},
 		})
 	end,
