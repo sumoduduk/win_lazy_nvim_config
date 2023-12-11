@@ -46,6 +46,7 @@ keymap.set("n", "<leader>z=", "0f=wv$y")
 
 -- nvim-tree
 keymap.set("n", "<leader>e", ":Neotree toggle<CR>") -- toggle file explorer
+keymap.set("n", "<leader>git", ":Neotree float git_status<CR>") -- toggle file explorer
 
 -- telescope git commands (not on youtube nvim video)
 keymap.set("n", "<leader>gc", "<cmd>Telescope git_commits<cr>") -- list all git commits (use <cr> to checkout) ["gc" for git commits]
